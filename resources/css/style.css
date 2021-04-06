@@ -19,6 +19,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     background-color: #fff;
     color:#555555;
     font-family: 'Raleway', 'Arial', sans-serif;
@@ -238,21 +239,20 @@ header {
     margin: 0 auto;
 }
 
-.avatar-image img {
+.photo img {
     height: 150px;
-    border: 1px solid #c0392b;
     border-radius: 50%;
     float: right; 
 }
 
 .resume-title h3 {
     margin-top: 40px;
-    margin-left: 100px;;
+    margin-left: 80px;;
 }
 
 .resume-title p {
     margin-top: -15px;
-   margin-left: 100px; 
+   margin-left: 80px; 
 }
 
 .expirience-dates {
