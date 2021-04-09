@@ -18,7 +18,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     scroll-behavior: smooth;
     background-color: #fff;
     color:#555555;
@@ -39,7 +40,8 @@ html {
 }
 
 section {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
+    padding: 50px;
 }
 
 .box {
@@ -232,7 +234,7 @@ header {
 /* RESUME */
 /* --------------------------------------------------- */
 
-.section-resume { padding-top: 80px; }
+/*.section-resume { padding-top: 80px; }*/
 
 .resume-box {
     width: 70%;
@@ -252,7 +254,7 @@ header {
 
 .resume-title p {
     margin-top: -15px;
-   margin-left: 80px; 
+    margin-left: 80px; 
 }
 
 .expirience-dates {
@@ -280,7 +282,7 @@ header {
 .portfolio-box {
     background-color: #fff;
     width: 90%;
-    margin:5% 0;
+    margin: 5% 0;
     box-shadow: 5px 5px 10px 5px #dddddd;
 }
 

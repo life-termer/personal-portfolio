@@ -1,0 +1,60 @@
+/* Big tablets to 1200px: width smaller than the 1140px row */
+@media only screen and (max-width: 1200px) {
+   .text-box {
+        width: 100%;
+        font-size: 100%;   
+    } 
+    .row { padding: 0 2%; }
+}
+
+/* Small tablets to big ones: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 40px; 0;}
+    .resume-box { width: 75%; }
+    .photo img { height: 150px; }
+    .resume-title h3 { margin-left: 60px; }
+    .resume-title p { margin-left: 60px; }
+    .icon-big { font-size: 180%; }
+    .portfolio-box h4 {font-size: 110%; }
+    .portfolio-box p{ font-size: 80%; }
+}
+
+/* Small phones to small tablets: from 481 to px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 14px; }
+    section { padding: 30px 0;}
+    
+    .col { 
+        width: 100%;
+    }
+    
+    .resume-box { width: 90%; }
+    .photo img {
+        height: 140px;
+        margin-left: 30px;
+        float: left; 
+    }
+    
+    .resume-title h3 {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .resume-title p { margin-left: 30px; }
+    
+    .portfolio-box { 
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .portfolio-box h4 {font-size: 130%; }
+    .portfolio-box p{ font-size: 110%; }
+    .portfolio-box a{ font-size: 130%; }
+    .main-nav { display: none;}
+    footer { padding: 200px 20px 50px 20px;}
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+}
