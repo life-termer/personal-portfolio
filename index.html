@@ -5,8 +5,12 @@
         <meta name=keywords content="surchin, dmitry, portfolio, resume">
         <meta name=description content="Surchin Dmitry - personal portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="resources/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" >
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link
+            rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          />
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,15 +27,16 @@
             
             <!-- Main navigation -->
             
-            <nav class="sticky">
+            <nav>
                 <div class="row">
-                    <ul class="main-nav">
+                    <ul class="main-nav js--main-nav">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#resume">Resume </a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                </div>    
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>   
             </nav>
             
             <!-- Main title -->
@@ -45,7 +50,7 @@
         
         <!-- ==== RESUME SECTION ==== -->
         
-        <section class="section-resume"  id="resume">
+        <section class="section-resume  js--section-resume" id="resume">
             
             <!-- Resume title -->
             
@@ -155,7 +160,7 @@
             
             <!-- First row of portfolio cards -->
             
-            <div class="row box">
+            <div class="row box js--wp-1">
                 
                 <!-- Column for the first portfolio card -->
                 
@@ -217,7 +222,7 @@
             
             <!-- Second row of portfolio cards -->
             
-            <div class="row box">
+            <div class="row box js--wp-1">
                 
                 <!-- Column for the first portfolio card -->
                 
@@ -247,7 +252,7 @@
             
             <!-- Footer title -->
             
-            <div class="row">
+            <div class="row js--wp-2">
                 <h1>Let's work together...</h1>
             </div>
             
@@ -272,6 +277,15 @@
             </div>
             
         </footer>
+        
+        <!-- ==== jQuery ==== -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/scripts.js"></script>
         
     </body> 
 </html>
