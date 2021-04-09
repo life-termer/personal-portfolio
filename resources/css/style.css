@@ -203,6 +203,8 @@ header {
     letter-spacing: 1px;
 }
 
+/*------- MAIN NAV -------*/
+
 .main-nav {
     float: right;
     list-style: none;
@@ -228,6 +230,26 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #c0392b;
+}
+
+/*------- STICKY NAV -------*/
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 2px 2px #e0e0e0;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin: 12px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 10px 0;
+    color: #555;
 }
 
 /* --------------------------------------------------- */
