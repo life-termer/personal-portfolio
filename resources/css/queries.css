@@ -85,10 +85,16 @@
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
     
-    footer { padding: 200px 20px 50px 20px;}
-}
+    footer { 
+        height: 102vh;
+        padding: 200px 20px 50px 20px;}
+    }
+
+   
+
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
+    body { font-size: 14px; }
 }
