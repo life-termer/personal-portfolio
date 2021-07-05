@@ -300,6 +300,9 @@ header {
     text-align: right;
     font-style: italic; 
 }
+.long-copy li {
+    margin-left: 20px;
+}
 
 .btn {
     margin-top: 40px;
